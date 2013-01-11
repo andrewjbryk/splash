@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  address: MyString
+  about: MyText
+  info: MyText
+  daily_price: 9.99
+  hourly_price: 9.99
+  weekly_price: 9.99
+  extras: MyText
+
+two:
+  name: MyString
+  address: MyString
+  about: MyText
+  info: MyText
+  daily_price: 9.99
+  hourly_price: 9.99
+  weekly_price: 9.99
+  extras: MyText

@@ -1,0 +1,64 @@
+<%= link_to "signout", destroy_user_session_path, :method =>:delete %>
+
+<div class="container">
+   <div class="header"><a href="findpool.html"><img src="logo2.jpg" alt="Insert Logo Here" name="Insert_logo" width="180" height="74" id="Insert_logo" style="background-color: #C6D580; display:block;float:left;" /></a>
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li><a class="MenuBarItemSubmenu" href="#">Swim</a>
+        <ul>
+          <li><a href="findpool.html">Near You</a></li>
+          <li><a href="#">Popular</a></li>
+</ul>
+      </li>
+      <li><a href="postapool.html">List</a></li>
+      <li><a href="howitworks.html">How it Works</a>      </li>
+      <li><a class="MenuBarItemSubmenu" href="#">Name</a>
+        <ul>
+          <li><a href="profile.html">Dashboard</a>          </li>
+          <li><a href="#">Edit Profile</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </li>
+</ul> 
+  <!-- end .header --></div>
+  <div class="content">
+    <h1>&nbsp;</h1>
+    <h1 align="center">Find a Pool</h1>
+    
+    <p align="center">
+     "Where To Swim?":<input type="textbox"><br />
+     </p>
+    
+    
+    <p align="center">
+    
+     <%= link_to "new pool", new_pool_path %>
+
+    <%= image_tag "imagemap.jpg" %>
+      <area shape="rect" coords="8,9,276,178" href="#" />
+      <area shape="rect" coords="282,7,498,157" href="#" />
+      <area shape="rect" coords="11,187,271,314" href="#" />
+      <area shape="rect" coords="284,168,496,314" href="#" />
+      <area shape="rect" coords="6,326,273,492" href="#" />
+      <area shape="rect" coords="283,330,495,495" href="#" />
+    </map>
+    </p>
+    <h3>&nbsp;</h3>
+  <!-- end .content --></div>
+  <div class="footer">
+      <table width="957" border="0">
+  <tr>
+    <td width="168" height="37"><a href="#">Splashdown</td>
+    <td width="37"><a href="about.html">About</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://twitter.com/andrewjbryk" target="_blank">By Andrew Bryk</td>
+    <td><a href="contact.html">Contact</a></td>
+  </tr>
+</table>
+    
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
+</script>
